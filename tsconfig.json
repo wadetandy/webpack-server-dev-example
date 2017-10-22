@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "lib": ["es2016"],
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "jsx": "preserve"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/",
+        "**/*.spec.ts"
+    ]
+}
